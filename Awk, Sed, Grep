@@ -1,0 +1,11 @@
+Tips and Tricks to do useful things! :)
+
+
+Replaces all instances of first string with second string with given input file.
+
+Command: sed -i 's/old-text/new-text/g' input.txt
+
+      Example: sed 's/\./\-/g' map2.txt > map3.txt 
+              the "\" are used to escape the "." and the "-", new output is stored in new file map3.txt
+              
+P
