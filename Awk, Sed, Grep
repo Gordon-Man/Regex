@@ -8,4 +8,11 @@ Command: sed -i 's/old-text/new-text/g' input.txt
       Example: sed 's/\./\-/g' map2.txt > map3.txt 
               the "\" are used to escape the "." and the "-", new output is stored in new file map3.txt
               
-P
+Display only the first column of input using AWK
+  awk '{print $1}'
+
+Search and replace using sed
+  sed 's/old-text/new-text/g'
+
+Count number of characters in a text input including null terminator
+  wc -c
